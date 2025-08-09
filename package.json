@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "build": "npm install"
   },
   "engines": {
     "node": "18.x"
@@ -15,8 +15,5 @@
     "cors": "^2.8.5",
     "openai": "^4.20.1",
     "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
